@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kings Ayinde Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0d1b2a; /* Dark Blue Background */
+  color: #ffffff; /* White text for readability */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Name header */
+h1 {
+  color: purple; /* Purple name */
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+/* Card container */
+.card {
+  background-color: #1b263b; /* Darker card */
+  padding: 40px 20px;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
+
+/* About & Projects text */
+h2, h3 {
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Buttons for projects */
+.button {
+  display: block;
+  width: 80%;
+  max-width: 250px;
+  margin: 15px auto;
+  padding: 15px 0;
+  font-size: 1.2em;
+  color: #fff;
+  background: #4a90e2; /* Blue button */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none; /* remove underline if <a> used */
+}
+
+.button:hover {
+  background: #357abd; /* Darker blue on hover */
+}
+</style>
+</head>
+<body>
+
+<h1>Kings Ayinde</h1>
+
+<div class="card">
+  <h2>About Me</h2>
+  <p>Web developer & GitHub enthusiast. I love building fun websites!</p>
+
+  <h3>Projects</h3>
+  <a href="valentine.html" class="button">Valentine Page</a>
+  <a href="quiz.html" class="button">Mini Quiz Game</a>
+  <a href="calculator.html" class="button">Simple Calculator</a>
+</div>
+
+</body>
+</html>
